@@ -44,3 +44,9 @@ The fitness function, on the other hand, evaluates the quality of a solution bas
 * The algorithm also maintains a 'closed' list of nodes whose adjoining nodes have been checked. If a newly generated node is already in this list with an equal or lower cost, no further processing is done on that node or with the path associated with it. If a node in the closed list matches the new one, but has been stored with a higher cost, it is removed from the closed list, and processing continues on the new node.
 * Next, an estimate of the new node's distance to the goal is added to the cost to form the heuristic for that node. This is then added to the 'open' priority queue, unless an identical node is found there.
 * Once the above three steps have been repeated for each new adjoining node, the original node taken from the priority queue is added to the 'closed' list. The next node is then popped from the priority queue and the process is repeated.
+
+## Results
+![image](https://github.com/TrishamBP/Rescue-Disaster-AStar-PathPlanning/assets/91331117/3bc8478f-0e61-4d9a-887a-75cdc6689518)
+![image](https://github.com/TrishamBP/Rescue-Disaster-AStar-PathPlanning/assets/91331117/e0443d02-a961-4bd7-82ac-4d11fb447970)
+
+
