@@ -9,11 +9,7 @@
       <a href="#problem-statement">Problem Statement</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#getting-started">PEAS</a>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -34,3 +30,21 @@ This research addresses the critical need for efficient and effective resource a
 
 ### Map of Chennai
 ![image](https://github.com/TrishamBP/Rescue-Disaster-AStar-PathPlanning/assets/91331117/9e763c59-b2f1-455c-8a1c-bce044ebf559)
+
+<!-- PEAS -->
+## PEAS (Performance Measure, Environment, Actuators and Sensors)
+### Performance Measure
+This specifies the criteria for evaluating the PSA's success in addressing the needs of flooded areas while considering the constraint that all nodes can be traversed multiple times but edges are covered only once. It could include metrics such as the number of people assisted, the time taken to reach affected areas while adhering to this constraint, and the effectiveness of resource distribution in optimizing battery usage and minimizing redundancy in path traversal i.e. traveserinsg the edges only once but can cover many nodes/cities.
+### Environment
+a. City of Chennai - The environment in which the autonomous battery-operated micro aquatic boat operates is centered around the city of Chennai during a period of flooding.
+b. Map Representation: In this scenario, certain areas of the city have been affected by flooding due to natural disasters like heavy rainfall or cyclones. These flooded areas are depicted as vertices on a graph, with each vertex representing a specific location within the city where assistance may be required, such as residential neighborhoods, streets, or landmarks.
+c. Graph Structure: The flooded areas are connected by edges, representing the roads or pathways between them. The graph is undirected since the roads can be traversed in both directions.
+d. Agent's Abilities: The agent is an autonomous battery-operated micro aquatic boat capable of navigating through flooded areas. It operates on battery power and is equipped with sensors to detect flooded regions and people waving for help.
+e. Battery Constraint: Since the agent operates on battery power, it needs to plan its route efficiently to cover all the flooded areas while conserving battery life. The shortest route that covers all roads only once is desired to optimize energy consumption.
+f. Sensing and Response: The agent's sensors detect flooded areas and people waving for help. It responds to signals from people in distress by approaching them to provide aid or assistance.
+g. Path Planning: The agent's objective is to find the shortest path that covers all the flooded areas (vertices) while traversing each road (edge) only once.
+h. Communication: The agent communicates with the central control or human operators to report its current location, the path it has taken, and locations where people are requesting help.
+### Actuators
+The actuators of the PSA are the mechanisms through which it interacts with its environment. In this case, they include the boat's navigation system for traversing flooded areas and its communication system for responding to distress signals.
+### Sensors
+Sensors enable the PSA to perceive and gather information about its environment. This includes sensors for detecting flooded areas, identifying distressed individuals waving for help, and monitoring battery levels.
