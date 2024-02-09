@@ -9,7 +9,7 @@
       <a href="#problem-statement">Problem Statement</a>
     </li>
     <li>
-      <a href="#getting-started">PEAS</a>
+      <a href="#peas">PEAS</a>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
