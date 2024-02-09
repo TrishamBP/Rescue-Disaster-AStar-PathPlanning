@@ -1,6 +1,7 @@
 <div align="center">
   <h3 align="center">A* Path Planning for Disaster Rescue Operations</h3>
 </div>
+
 <!-- Problem Statement -->
 ## Problem Statement
 In disaster response scenarios, efficient allocation and distribution of essential supplies such as food, water, and medicines to flood-affected areas are crucial for mitigating human suffering and facilitating recovery efforts. Given a map of flooded areas within the city of Chennai, marked as vertices in a graph, and equipped with an autonomous battery-operated micro aquatic boat capable of detecting flooded regions and responding to distress signals, the challenge is to devise an optimal path that covers all affected areas while minimizing energy consumption and travel time.
