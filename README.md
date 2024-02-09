@@ -9,7 +9,7 @@
       <a href="#problem-statement">Problem Statement</a>
     </li>
     <li>
-      <a href="#peas">PEAS</a>
+      <a href="#PEAS (Performance Measure, Environment, Actuators and Sensors)">PEAS</a>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
