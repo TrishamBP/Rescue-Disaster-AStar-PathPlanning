@@ -30,3 +30,9 @@ This specifies the criteria for evaluating the PSA's success in addressing the n
 The actuators of the PSA are the mechanisms through which it interacts with its environment. In this case, they include the boat's navigation system for traversing flooded areas and its communication system for responding to distress signals.
 ### Sensors
 Sensors enable the PSA to perceive and gather information about its environment. This includes sensors for detecting flooded areas, identifying distressed individuals waving for help, and monitoring battery levels.
+
+## Evaluation Criteria
+### Heuristic Function
+In the context of supplying aid to flooded areas in Chennai, the heuristic function estimates the distance between nodes (cities) in the graph. The Euclidean distance serves as a suitable heuristic, providing an approximation of the straight-line distance between two points in a two-dimensional space. This heuristic guides the pathfinding algorithm by prioritizing nodes closer to the goal, aiding in the efficient coverage of flooded areas while minimizing traversal costs.
+### Fitness Function
+The fitness function, on the other hand, evaluates the quality of a solution based on the heuristic value and the cost of the path. By summing the heuristic value (Euclidean distance) with the path cost, which includes factors such as distance traveled, time taken, and energy expended, the fitness function provides a comprehensive measure of solution quality. This approach ensures that the autonomous boat optimizes its route to cover all flooded areas while considering resource constraints and adhering to the problem's edge coverage constraint.
