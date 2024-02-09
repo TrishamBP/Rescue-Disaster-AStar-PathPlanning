@@ -32,3 +32,5 @@ The primary objective of this research is to develop a path planning algorithm t
 
 This research addresses the critical need for efficient and effective resource allocation in disaster response efforts by providing a novel approach to path planning in flooded areas. By optimizing the route taken by the autonomous boat, the proposed algorithm aims to enhance the speed and efficacy of relief operations, ultimately aiding in the timely delivery of essential supplies to those in need and minimizing the impact of natural disasters on affected communities.
 
+### Map of Chennai
+![image](https://github.com/TrishamBP/Rescue-Disaster-AStar-PathPlanning/assets/91331117/9e763c59-b2f1-455c-8a1c-bce044ebf559)
